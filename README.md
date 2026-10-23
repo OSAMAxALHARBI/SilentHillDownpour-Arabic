@@ -4,7 +4,7 @@
 
 تعريب Silent Hill: Downpour لبورت DownpourRecomp على الكمبيوتر: الحوارات والترجمة النصية، القوائم والخيارات والنصائح، الأدوات والمهام، المذكرات والمستندات، الخرائط والألغاز.
 
-التعريب ما يحتوي أي ملف من ملفات اللعبة. المثبّت يعدّل ملفات اللعبة اللي عندك أنت.
+التعريب ما يحتوي أي ملف من ملفات اللعبة. البرنامج يعدّل ملفات اللعبة اللي عندك أنت.
 
 ## اللي تحتاجه
 
@@ -22,19 +22,21 @@
 
 **ب. ثبّت التعريب**
 1. حمّل `SilentHillDownpour-Arabic-1.0.zip` من [Releases](../../releases/latest) وفك ضغطه.
-2. كليك يمين على `Install.ps1` واختر **Run with PowerShell**.
-3. اختر مجلد البورت (اللي فيه `downpour.exe`).
-4. المثبّت يتأكد إن ملفاتك أصلية، ويحفظ نسخة منها، وبعدين يركّب التعريب (59 ملف).
+2. افتح `DownpourArabic.exe`. إذا طلعت رسالة "Windows protected your PC" اضغط More info ثم Run anyway (البرنامج مو موقّع رقميًا).
+3. اختر مجلد البورت (اللي فيه `downpour.exe`) واضغط «ثبّت التعريب».
+4. البرنامج يتأكد إن ملفاتك أصلية، ويحفظ نسخة منها في `DownpourArabic-backup`، وبعدين يركّب التعريب (59 ملف).
 
 **ج. العب**
 1. شغّل `PlayDownpour.exe`.
 2. الترجمة النصية مقفلة في اللعبة من الأساس: «خيارات» ← «الترجمة النصية» ← «نعم».
 
 ## الإزالة
-كليك يمين على `Uninstall.ps1` واختر **Run with PowerShell**. ترجع ملفاتك الأصلية.
+افتح `DownpourArabic.exe` واضغط «أزل التعريب». ترجع ملفاتك الأصلية.
 
 ## ملاحظات
-- أسماء فريق العمل في البداية والنهاية تركناها بالإنجليزي.
+- أسماء فريق العمل في البداية والنهاية تركتها بالإنجليزي.
+- إذا برنامج الحماية منع `DownpourArabic.exe`: ملفات PowerShell (`Install.ps1` و `Uninstall.ps1`) تسوي نفس الشي. قبل تشغيلها: كليك يمين على الملف ← Properties ← علّم Unblock ← OK، وبعدين كليك يمين ← Run with PowerShell.
+- كود البرنامج موجود في مجلد [`app`](app) في هذي الصفحة، وتقدر تبنيه بنفسك بـ `build.cmd`.
 - مشاكل البورت نفسه (تعليق، أداء، يد التحكم) تُسأل في صفحة البورت، مو هنا.
 
 </div>
@@ -46,7 +48,7 @@
 Arabic translation of Silent Hill: Downpour for the DownpourRecomp PC port: dialogue and subtitles, menus, options and
 tips, items and objectives, journal and documents, maps and puzzles.
 
-No game file is included. The installer patches the game files of your own copy.
+No game file is included. The program patches the game files of your own copy.
 
 ### What you need
 
@@ -67,19 +69,24 @@ No game file is included. The installer patches the game files of your own copy.
 
 **B. Install the translation**
 1. Download `SilentHillDownpour-Arabic-1.0.zip` from [Releases](../../releases/latest) and extract it.
-2. Right-click `Install.ps1` and choose **Run with PowerShell**.
-3. Choose the port folder (the one with `downpour.exe`).
-4. The installer checks that your files are the original ones, backs them up, then installs the translation (59 files).
+2. Open `DownpourArabic.exe`. If "Windows protected your PC" appears, click More info, then Run anyway (the program is
+   not digitally signed).
+3. Choose the port folder (the one with `downpour.exe`) and click "Install".
+4. The program checks that your files are the original ones, keeps a copy in `DownpourArabic-backup`, then installs the
+   translation (59 files).
 
 **C. Play**
 1. Start `PlayDownpour.exe`.
 2. Subtitles are off by default in this game: «خيارات» (Options) > «الترجمة النصية» (Subtitles) > «نعم» (Yes).
 
 ### Uninstall
-Right-click `Uninstall.ps1` and choose **Run with PowerShell**. Your original files come back.
+Open `DownpourArabic.exe` and click "Uninstall". Your original files come back.
 
 ### Notes
 - The opening and ending staff credits are left in English.
+- If your antivirus blocks `DownpourArabic.exe`: the PowerShell files (`Install.ps1`, `Uninstall.ps1`) do the same.
+  Before running one: right-click it > Properties > tick Unblock > OK, then right-click > Run with PowerShell.
+- The program's source is in the [`app`](app) folder of this repository; `build.cmd` builds it.
 - Problems with the port itself (crashes, performance, controllers) belong on the port's page, not here.
 
 ### Credits
