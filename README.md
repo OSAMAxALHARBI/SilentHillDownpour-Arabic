@@ -2,25 +2,40 @@
 
 <div dir="rtl">
 
-تعريب Silent Hill: Downpour لبورت ريكومب DownpourRecomp على الـ PC.
+تعريب Silent Hill: Downpour لبورت DownpourRecomp على الكمبيوتر: الحوارات والترجمة النصية، القوائم والخيارات والنصائح، الأدوات والمهام، المذكرات والمستندات، الخرائط والألغاز.
 
-## المتطلبات
-- بورت DownpourRecomp الإصدار 1.1.8: https://github.com/LittleBitUA/DownpourRecomp/releases
-- نسخة Xbox 360 الأمريكية من اللعبة (Title ID: 4B4E0823) مع التحديث TU1 (البورت يحمّله بنفسه).
+التعريب ما يحتوي أي ملف من ملفات اللعبة. المثبّت يعدّل ملفات اللعبة اللي عندك أنت.
 
-## التحميل
-حمّل `SilentHillDownpour-Arabic-1.0.zip` من [Releases](../../releases/latest).
+## اللي تحتاجه
 
-## التثبيت
-1. ثبّت البورت وشغّل اللعبة مرة وحدة، ثم أغلقها.
-2. فك ضغط الملف في أي مكان.
-3. كليك يمين على `Install.ps1` واختر **Run with PowerShell**.
-4. إذا طلب منك مجلد، اختر مجلد البورت (اللي فيه `downpour.exe`).
-5. شغّل اللعبة وخل اللغة إنجليزي.
-6. فعّل الترجمة النصية: «خيارات» ← «الترجمة النصية» ← «نعم».
+1. **كمبيوتر:** ويندوز 10 أو 11 (64 بت)، كرت شاشة يدعم DirectX 12، و Microsoft Visual C++ Redistributable (x64): https://aka.ms/vs/17/release/vc_redist.x64.exe
+2. **بورت DownpourRecomp الإصدار 1.1.8** (مجاني): https://github.com/LittleBitUA/DownpourRecomp/releases
+3. **نسختك من اللعبة على Xbox 360**: النسخة الأمريكية (Title ID `4B4E0823`)، ملف ISO مسحوب من قرصك. التحديث TU1 البورت ينزّله بنفسه. أي نسخة ثانية يرفضها المثبّت بدون ما يغيّر شي.
+
+## الخطوات
+
+**أ. جهّز البورت واللعبة**
+1. فك ضغط البورت في مجلد تقدر تكتب فيه، مثل `C:\Games\DownpourRecomp`.
+2. افتح `PlayDownpour.exe` واضغط Play.
+3. أول مرة يطلب منك ملف اللعبة: اختر ملف الـ ISO حقك. البورت يستخرج اللعبة بنفسه، وبعدين يطلب التحديث TU1: خله ينزّله.
+4. خل اللعبة توصل للقائمة الرئيسية، وبعدين سكّرها. لغة اللعبة تبقى English (الافتراضي).
+
+**ب. ثبّت التعريب**
+1. حمّل `SilentHillDownpour-Arabic-1.0.zip` من [Releases](../../releases/latest) وفك ضغطه.
+2. كليك يمين على `Install.ps1` واختر **Run with PowerShell**.
+3. اختر مجلد البورت (اللي فيه `downpour.exe`).
+4. المثبّت يتأكد إن ملفاتك أصلية، ويحفظ نسخة منها، وبعدين يركّب التعريب (59 ملف).
+
+**ج. العب**
+1. شغّل `PlayDownpour.exe`.
+2. الترجمة النصية مقفلة في اللعبة من الأساس: «خيارات» ← «الترجمة النصية» ← «نعم».
 
 ## الإزالة
-كليك يمين على `Uninstall.ps1` واختر **Run with PowerShell**.
+كليك يمين على `Uninstall.ps1` واختر **Run with PowerShell**. ترجع ملفاتك الأصلية.
+
+## ملاحظات
+- أسماء فريق العمل في البداية والنهاية تركناها بالإنجليزي.
+- مشاكل البورت نفسه (تعليق، أداء، يد التحكم) تُسأل في صفحة البورت، مو هنا.
 
 </div>
 
@@ -28,20 +43,46 @@
 
 ## English
 
-Arabic translation of Silent Hill: Downpour for the DownpourRecomp PC port.
+Arabic translation of Silent Hill: Downpour for the DownpourRecomp PC port: dialogue and subtitles, menus, options and
+tips, items and objectives, journal and documents, maps and puzzles.
 
-**Requirements**
-- DownpourRecomp 1.1.8: https://github.com/LittleBitUA/DownpourRecomp/releases
-- US Xbox 360 version of the game (Title ID: 4B4E0823) with TU1 (the port downloads it itself).
+No game file is included. The installer patches the game files of your own copy.
 
-**Download:** `SilentHillDownpour-Arabic-1.0.zip` from [Releases](../../releases/latest).
+### What you need
 
-**Install**
-1. Install the port and start the game once, then close it.
-2. Extract the zip anywhere.
-3. Right-click `Install.ps1` and choose **Run with PowerShell**.
-4. If it asks for a folder, choose the port folder (the one with `downpour.exe`).
-5. Start the game with the language on English.
-6. Turn on subtitles: «خيارات» (Options) > «الترجمة النصية» (Subtitles) > «نعم» (Yes).
+1. **PC:** Windows 10 or 11 (64-bit), a DirectX 12 graphics card, and the Microsoft Visual C++ Redistributable (x64):
+   https://aka.ms/vs/17/release/vc_redist.x64.exe
+2. **The DownpourRecomp port, version 1.1.8** (free): https://github.com/LittleBitUA/DownpourRecomp/releases
+3. **Your own Xbox 360 copy:** the US version (Title ID `4B4E0823`) as an ISO dumped from your disc. The port downloads
+   Title Update 1 itself. Any other version is refused by the installer, which then changes nothing.
 
-**Uninstall:** right-click `Uninstall.ps1` and choose **Run with PowerShell**.
+### Steps
+
+**A. Set up the port and the game**
+1. Extract the port to a folder you can write to, for example `C:\Games\DownpourRecomp`.
+2. Open `PlayDownpour.exe` and click Play.
+3. On the first run it asks for your game: choose your ISO. The port extracts the game itself, then asks for Title
+   Update 1: let it download it.
+4. Let the game reach the main menu, then close it. Keep the game language on English (the default).
+
+**B. Install the translation**
+1. Download `SilentHillDownpour-Arabic-1.0.zip` from [Releases](../../releases/latest) and extract it.
+2. Right-click `Install.ps1` and choose **Run with PowerShell**.
+3. Choose the port folder (the one with `downpour.exe`).
+4. The installer checks that your files are the original ones, backs them up, then installs the translation (59 files).
+
+**C. Play**
+1. Start `PlayDownpour.exe`.
+2. Subtitles are off by default in this game: «خيارات» (Options) > «الترجمة النصية» (Subtitles) > «نعم» (Yes).
+
+### Uninstall
+Right-click `Uninstall.ps1` and choose **Run with PowerShell**. Your original files come back.
+
+### Notes
+- The opening and ending staff credits are left in English.
+- Problems with the port itself (crashes, performance, controllers) belong on the port's page, not here.
+
+### Credits
+- Translation: Osama.
+- Arabic font: El Messiri by the El Messiri Project Authors, SIL Open Font License 1.1 (text in `licenses`).
+- DownpourRecomp PC port by Little Bit.
