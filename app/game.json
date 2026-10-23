@@ -1,0 +1,85 @@
+{
+ "id": "SilentHillDownpour",
+ "exe_name": "DownpourArabic",
+ "github": "OSAMAxALHARBI/SilentHillDownpour-Arabic",
+ "site_url": "https://iosamai.com/game.html?g=silent-hill-downpour",
+ "name": {
+  "ar": "سايلنت هيل: داونبور",
+  "en": "Silent Hill: Downpour"
+ },
+ "platform": {
+  "ar": "بورت بي سي",
+  "en": "DownpourRecomp PC port"
+ },
+ "backup_dir": "DownpourArabic-backup",
+ "patch_root": "assets",
+ "must_have": [
+  "downpour.exe",
+  "assets/SHGame/Xbox360TOC.txt"
+ ],
+ "close_processes": [
+  "downpour",
+  "PlayDownpour"
+ ],
+ "folder_label": {
+  "ar": "مجلد البورت (اللي فيه downpour.exe)",
+  "en": "Port folder (the one with downpour.exe)"
+ },
+ "folder_hint": {
+  "ar": "اختر مجلد البورت اللي فيه downpour.exe، بعد ما يثبّت البورت اللعبة من ملف الـ ISO.",
+  "en": "Choose the port folder with downpour.exe, after the port has installed the game from your ISO."
+ },
+ "mismatch": {
+  "ar": "ثبّت اللعبة في البورت من جديد (النسخة الأمريكية مع التحديث TU1) وبعدين ثبّت التعريب.",
+  "en": "Install the game in the port again (US copy with Title Update 1), then install the translation."
+ },
+ "before": {
+  "ar": "ثبّت البورت، وافتح PlayDownpour.exe وخله يثبّت اللعبة من ملف الـ ISO حقك وينزّل التحديث TU1. خل اللعبة توصل للقائمة الرئيسية وبعدين سكّرها.",
+  "en": "Install the port, open PlayDownpour.exe and let it install the game from your ISO and download Title Update 1. Let the game reach the main menu, then close it."
+ },
+ "requirements": [
+  {
+   "ar": "ويندوز 10 أو 11 (64 بت)، كرت شاشة يدعم DirectX 12، و Visual C++ Redistributable (x64).",
+   "en": "Windows 10 or 11 (64-bit), a DirectX 12 graphics card, and the Visual C++ Redistributable (x64)."
+  },
+  {
+   "ar": "بورت DownpourRecomp الإصدار 1.1.8 (مجاني، من GitHub).",
+   "en": "The DownpourRecomp port, version 1.1.8 (free, on GitHub)."
+  },
+  {
+   "ar": "نسختك الأمريكية من اللعبة على Xbox 360 (Title ID: 4B4E0823) كملف ISO مسحوب من قرصك.",
+   "en": "Your own US Xbox 360 copy (Title ID: 4B4E0823) as an ISO dumped from your disc."
+  }
+ ],
+ "links": [
+  {
+   "text": {
+    "ar": "البورت DownpourRecomp",
+    "en": "DownpourRecomp port"
+   },
+   "url": "https://github.com/LittleBitUA/DownpourRecomp/releases"
+  },
+  {
+   "text": {
+    "ar": "Visual C++ (x64)",
+    "en": "Microsoft download"
+   },
+   "url": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+  }
+ ],
+ "after_install": [
+  {
+   "ar": "شغّل اللعبة من PlayDownpour.exe، ولغة اللعبة تبقى English.",
+   "en": "Start the game from PlayDownpour.exe; keep the game language on English."
+  },
+  {
+   "ar": "فعّل الترجمة النصية: «خيارات» ← «الترجمة النصية» ← «نعم».",
+   "en": "Turn on subtitles: Options > Subtitles > Yes."
+  },
+  {
+   "ar": "لإزالة التعريب افتح هذا البرنامج واضغط «أزل التعريب».",
+   "en": "To remove the translation, open this program and press Uninstall."
+  }
+ ],
+ "version": "1.0"
+}
