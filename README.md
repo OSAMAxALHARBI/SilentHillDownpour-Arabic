@@ -6,6 +6,8 @@
 
 التعريب ما يحتوي أي ملف من ملفات اللعبة. البرنامج يعدّل ملفات اللعبة اللي عندك أنت.
 
+🌐 **صفحة التعريب على موقعي:** [iosamai.com/silent-hill-downpour](https://iosamai.com/silent-hill-downpour/) · كل تعريباتي: [iosamai.com](https://iosamai.com/)
+
 ## اللي تحتاجه
 
 1. **كمبيوتر:** ويندوز 10 أو 11 (64 بت)، كرت شاشة يدعم DirectX 12، و Microsoft Visual C++ Redistributable (x64): https://aka.ms/vs/17/release/vc_redist.x64.exe
@@ -47,6 +49,8 @@
 
 Arabic translation of Silent Hill: Downpour for the DownpourRecomp PC port: dialogue and subtitles, menus, options and
 tips, items and objectives, journal and documents, maps and puzzles.
+
+🌐 **Translation page:** [iosamai.com/en/silent-hill-downpour](https://iosamai.com/en/silent-hill-downpour/) · all my translations: [iosamai.com/en](https://iosamai.com/en/)
 
 No game file is included. The program patches the game files of your own copy.
 
